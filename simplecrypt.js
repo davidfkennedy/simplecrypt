@@ -2,7 +2,7 @@ function simplecrypt(){
 	//all comments are below the line they are referencing
 	var codeWord = prompt("Enter Your Codeword Here");
 	var cypher = codeWord.toUpperCase();
-	//converts the codeWord to ALL CAPS
+	//converts the codeWord to ALL CAPS to check for duplcates
 	cypher = cypher.split(" ").join("");
 	cypherLength = cypher.length;
 	//this calculates cypher length and removes the spaces, rad.
@@ -24,7 +24,7 @@ function simplecrypt(){
 				clearTextLength = clearText.length;
 				//determines the length without spaces of the cleartext
 				extraChar = clearTextLength % cypherLength
-				//how many exclamation points go at the end of the message. 
+				//how many exclamation points go at the end of the message.
 			}
 		}
 	}
