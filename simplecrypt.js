@@ -28,3 +28,8 @@ function simplecrypt(){
 			}
 		}
 	}
+
+	/*Notes and Considerations:
+	The encryption algorithim works with spaces as long as they are treated as a letter.
+	This is a transposition based algorithim
+	*/
